@@ -113,3 +113,39 @@ main ul li {
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: cover;
 }
+
+
+.footer-bottom-gray {
+  background-color: rgb(64, 64, 64);
+  padding: 30px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  text-transform: uppercase;
+  color: white;
+  border: 2px solid blue;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.footer-b-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-b-right h3 {
+  text-transform: uppercase;
+  color: rgb(65, 65, 255);
+  margin: 10px;
+
+}
+
+.footer-b-right img {
+  width: 30px;
+  margin: 0px 10px;
+}

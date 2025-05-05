@@ -59,7 +59,24 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer-bottom"></div>
+            <div className="footer-bottom-gray">
+                <div className="footer-bottom container">
+                    <div className="footer-b-left">
+                        <button>sign-up now!</button>
+                    </div>
+                    <div className="footer-b-right">
+                        <h3>follow us</h3>
+                        <div>
+                            <img src="../src/assets/img/footer-facebook.png" alt="" />
+                            <img src="../src/assets/img/footer-twitter.png" alt="" />
+                            <img src="../src/assets/img/footer-youtube.png" alt="" />
+                            <img src="../src/assets/img/footer-pinterest.png" alt="" />
+                            <img src="../src/assets/img/footer-periscope.png" alt="" />
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </footer>
     )
 }
