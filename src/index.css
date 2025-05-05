@@ -46,3 +46,27 @@ header ul {
 header ul li {
   padding: 10px;
 }
+
+/* main */
+
+.main-top {
+  color: white;
+  background-color: black;
+}
+
+.main-bottom {
+  color: white;
+  background-color: rgb(70, 70, 255);
+}
+
+.main ul li a {
+  text-transform: uppercase;
+}
+
+.main ul {
+  display: flex;
+}
+
+.main ul li {
+  padding: 10px;
+}

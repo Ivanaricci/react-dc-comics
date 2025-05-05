@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <header>
             <figure>
-                <img src="dc-logo.png" alt="Dc Comics" />
+                <img src="../src/assets/img/dc-logo.png" alt="Dc Comics" />
             </figure>
             <ul>
                 <li><a href="#">characters</a></li>
