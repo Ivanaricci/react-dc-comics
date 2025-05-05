@@ -5,7 +5,7 @@ const Main = () => {
         <main>
             <div className="main-top">
                 <div className="container">
-                    -- Content goes here --
+                    --&gt; Content goes here &lt;--
                 </div>
             </div>
             <div className="main-bottom">

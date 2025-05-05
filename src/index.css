@@ -37,14 +37,17 @@ header ul li a {
 header {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 header ul {
   display: flex;
+  padding-top: 30px;
 }
 
 header ul li {
   padding: 10px;
+  font-size: 14px;
 }
 
 /* main */
@@ -53,10 +56,12 @@ header ul li {
   color: white;
   background-color: black;
   padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .main-bottom {
-  background-color: rgb(70, 70, 255);
+  background-color: rgb(15, 143, 255);
 }
 
 main ul li a {
@@ -64,6 +69,7 @@ main ul li a {
   color: white;
   padding: 5px;
   vertical-align: middle;
+  font-size: 14px;
 }
 
 main ul {
@@ -79,6 +85,7 @@ main ul li {
 .main-bottom ul li img {
   width: 50px;
   vertical-align: middle;
+  padding: 0px 5px;
 }
 
 .main-bottom ul li .locator-img {
@@ -123,6 +130,10 @@ main ul li {
   top: -100px;
 }
 
+.text-footer {
+  padding-top: 20px;
+}
+
 
 
 /* bottom footer */
@@ -141,7 +152,7 @@ main ul li {
 button {
   text-transform: uppercase;
   color: white;
-  border: 2px solid blue;
+  border: 2px solid rgb(15, 143, 255);
   background-color: transparent;
   padding: 10px;
 }
@@ -153,7 +164,7 @@ button {
 
 .footer-b-right h3 {
   text-transform: uppercase;
-  color: rgb(65, 65, 255);
+  color: rgb(15, 143, 255);
   margin: 10px;
 
 }
