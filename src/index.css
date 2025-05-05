@@ -92,6 +92,7 @@ main ul li {
   display: flex;
   justify-content: space-between;
   color: white;
+  position: relative;
 }
 
 .footer-top h3 {
@@ -112,7 +113,19 @@ main ul li {
 .footer-bg {
   background-image: url(./assets/img/footer-bg.jpg);
   background-size: cover;
+  height: 400px;
+  overflow: hidden;
 }
+
+.footer-right {
+  position: absolute;
+  right: 0px;
+  top: -100px;
+}
+
+
+
+/* bottom footer */
 
 
 .footer-bottom-gray {
