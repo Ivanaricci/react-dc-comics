@@ -2,11 +2,11 @@
 
 const Main = () => {
     return (
-        <div className="main">
+        <main>
             <div className="main-top">
                 -- Content goes here --
             </div>
-            <div className="mainbottom">
+            <div className="main-bottom">
                 <ul>
                     <li>
                         <div>
@@ -22,25 +22,25 @@ const Main = () => {
                     </li>
                     <li>
                         <div>
-                            <img src="../src/assets/img/buy-comics-shop-locator" alt="" />
+                            <img src="../src/assets/img/buy-comics-subscriptions.png" alt="" />
                             <a href="#">subscription</a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="../src/assets/img/buy-comics-subscriptions" alt="" />
+                            <img className="locator-img" src="../src/assets/img/buy-comics-shop-locator.png" alt="" />
                             <a href="#">comics shop locator</a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="../src/assets/img/buy-dc-power-visa" alt="" />
+                            <img src="../src/assets/img/buy-dc-power-visa.svg" alt="" />
                             <a href="#">dc power visa</a>
                         </div>
                     </li>
                 </ul>
             </div>
-        </div>
+        </main>
     )
 }
 
