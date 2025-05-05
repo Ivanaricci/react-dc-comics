@@ -1,7 +1,7 @@
 
 const Header = () => {
     return (
-        <header>
+        <header className="container">
             <figure>
                 <img src="../src/assets/img/dc-logo.png" alt="Dc Comics" />
             </figure>
