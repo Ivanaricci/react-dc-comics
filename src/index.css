@@ -84,3 +84,29 @@ main ul li {
 .main-bottom ul li .locator-img {
   width: 40px;
 }
+
+
+/* footer */
+
+.footer-top {
+  background-image: url(./assets/img/footer-bg.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-top h3 {
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-left ul li {
+  font-size: 14px;
+  color: rgb(184, 184, 184);
+  padding: 5px 20px;
+}
