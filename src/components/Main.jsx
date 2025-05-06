@@ -1,11 +1,11 @@
-
+import ListComics from "./ListComics"
 
 const Main = () => {
     return (
         <main>
             <div className="main-top">
                 <div className="container">
-                    --&gt; Content goes here &lt;--
+                    <ListComics />
                 </div>
             </div>
             <div className="main-bottom">
