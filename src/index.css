@@ -34,20 +34,27 @@ header ul li a {
   text-transform: uppercase;
 }
 
-header {
+.header-top {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
-header ul {
+.header-top ul {
   display: flex;
   padding-top: 30px;
 }
 
-header ul li {
+.header-top ul li {
   padding: 10px;
   font-size: 14px;
+}
+
+.jumbotron {
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
 }
 
 /* main */
