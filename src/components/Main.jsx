@@ -7,6 +7,9 @@ const Main = () => {
                 <div className="container">
                     <ListComics />
                 </div>
+                <div className="b-main-top">
+                    <button className="load-more">load more</button>
+                </div>
             </div>
             <div className="main-bottom">
                 <div className="container">
