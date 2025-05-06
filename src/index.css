@@ -92,6 +92,23 @@ main ul li {
   width: 40px;
 }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.comics-card {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.comics-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 
 /* footer */
 
