@@ -162,7 +162,7 @@ const ListComics = () => {
         <section>
             <h2>current series</h2>
             <div className="card-container">
-                <ComicCard title={comics[0].title} src={comics[0].thumb} />
+                {/* <ComicCard title={comics[0].title} src={comics[0].thumb} />
                 <ComicCard title={comics[1].title} src={comics[1].thumb} />
                 <ComicCard title={comics[2].title} src={comics[2].thumb} />
                 <ComicCard title={comics[3].title} src={comics[3].thumb} />
@@ -173,7 +173,11 @@ const ListComics = () => {
                 <ComicCard title={comics[8].title} src={comics[8].thumb} />
                 <ComicCard title={comics[9].title} src={comics[9].thumb} />
                 <ComicCard title={comics[10].title} src={comics[10].thumb} />
-                <ComicCard title={comics[11].title} src={comics[11].thumb} />
+                <ComicCard title={comics[11].title} src={comics[11].thumb} /> */}
+
+                {comics.map((card) => (
+                    <ComicCard key={`card-${card.id}`} title={card.title} src={card.thumb} />
+                ))}
             </div>
         </section>
     )
